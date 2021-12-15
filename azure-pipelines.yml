@@ -21,6 +21,6 @@ steps:
     location: 'South Central US'
     templateLocation: 'URL of the file'
     csmFileLink: 'https://raw.githubusercontent.com/ttneal00/testpipeline/main/CreateWebApp/azuredeploy.json'
-    overrideParameters: '-projectName testpipelinearm'
+    overrideParameters: '-projectName testarm'
     deploymentMode: 'Incremental'
     deploymentName: 'DeployPipelineTemplate'
