@@ -13,6 +13,8 @@ steps:
 - task: AzurePowerShell@5
   inputs:
     azureSubscription: 'AzureRmPipeline-conn'
+    ScriptType: FilePath
+    workingDirectory: 'https://raw.githubusercontent.com/ttneal00/Scripts/master/Kodak%20Alaris/'
     ScriptPath: 'https://raw.githubusercontent.com/ttneal00/Scripts/master/Kodak%20Alaris/environment.ps1?token=AS2FGLDS6TJ65WPE63UJIW3BXI4SO'
     ScriptArguments:
     azurePowerShellVersion: 'LatestVersion'
