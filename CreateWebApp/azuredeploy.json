@@ -3,6 +3,7 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "projectName": {
+      "defaultValue":"testpipe"
       "type": "string",
       "minLength": 3,
       "maxLength": 11,
